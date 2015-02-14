@@ -1,0 +1,20 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    
+	<item
+		android:id="@+id/Mmp"
+		android:title="@string/mpText"/>
+	
+    <item
+		android:id="@+id/MSetting"
+		android:title="@string/settingText"/>
+
+	<item
+		android:id="@+id/Mabout"
+		android:title="@string/aboutText"/>
+
+	<item
+		android:id="@+id/Mexit"
+		android:title="@string/exitText"/>
+	
+    
+</menu>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="SuperCube.Cube2" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/SuperCube"
+        android:theme="@style/AppTheme" >
+
+        <activity
+            android:name=".masterActivity"
+			android:launchMode="singleInstance"
+            android:label="@string/SuperCube" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+					
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+		
+		<activity
+            android:name=".CubeCore2.musicActivity"
+			android:launchMode="singleInstance"
+            android:label="@string/SuperCube">
+        </activity>
+
+		<activity
+            android:name=".aboutActivity"
+			android:launchMode="singleTask"
+            android:label="@string/SuperCube" >
+        </activity>
+		
+		<service 
+			android:enabled="true"
+			android:label="@string/MUSICPLAYER_SERVICE"
+			android:name=".CubeCore2.musicPlayerService"> 
+		    <intent-filter 
+				android:priority="1000" > 
+			</intent-filter>
+		</service>
+		
+		<activity
+			android:name=".CubeCore2.core"
+			android:label="@string/SuperCube"/>
+		
+    </application>
+
+</manifest>

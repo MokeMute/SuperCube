@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="SuperCube">超級立方體</string>
+	<string name="nowText">現在是:</string>
+	<string name="doFiler">文件處理</string>
+	<string name="backToHome">回到主界面</string>
+	<string name="settingText">設定</string>
+	<string name="aboutText">關於</string>
+	<string name="exitText">退出</string>
+	<string name="mpText">媒體播放機</string>
+	<string name="pauseText">暫停</string>
+	<string name="MUSICPLAYER_SERVICE">媒體播放服務</string>
+	
+</resources>
